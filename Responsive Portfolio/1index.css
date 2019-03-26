@@ -1,0 +1,127 @@
+body {
+    width: 960px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background:white;
+    background-image: url(https://i.pinimg.com/originals/6d/38/dd/6d38dd757b375e577c64962d8256efa8.gif);
+  }
+        .stretch { min-width:100%; min-height:100%; width:auto; height:auto;}
+  .clearfix {
+    overflow: auto;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    border: white;
+    opacity: .8;
+  }
+  
+  .card-text {
+    background-color: transparent;
+  }
+  nav,
+  section,
+  aside,
+  footer {
+    opacity: .8;
+    display: block;
+    padding: 10px;
+    margin: 30px 16px 20px;
+    text-align: center;
+    background: white;
+  }
+  .footer {
+      position: absolute;
+  }
+  header {
+    
+      opacity: .8;
+      /* padding: 10px; */
+      background: transparent;
+      content: 900px;
+  }
+  .jumbotron {
+     background: white;
+     opacity: 0.8;
+     padding:20px;
+     margin: 10px;
+  }
+  section {
+    display: block;
+    float: left;
+    width: 490px;
+    height: 267px;
+    overflow: scroll;
+   
+  }
+  .row {
+      margin: auto;
+      width: 1000px;
+      opacity: .8;
+  }
+  aside {
+    display: block;
+    /* width: 45%; */
+    height: 267px;
+    overflow: hidden;
+  }
+  
+  article {
+      float: right;
+    padding: 10px;
+    color: #ebebeb;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  h1,
+  p {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    color: #777777;
+    text-align: center;
+    background:white;
+  }
+  
+  .icon-bar {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 12px; */
+    margin: auto;
+    width: 95%;
+    background-color:lightslategray;
+    overflow: auto;
+    padding: 7px;
+      opacity: .8;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color:lightcyan;
+    color: black;
+  }
+
+@media only screen
+and (max-device-width: 768px) {}
+
+@media only screen 
+and (max-device-width: 980px){}
+
+@media only screen
+and (max-device-width:640px ){}
